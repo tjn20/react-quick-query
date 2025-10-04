@@ -16,6 +16,8 @@ A simple and lightweight React package for fetching and caching data with Server
 
 - Effortlessly fetch and cache data across your React app
 
+- Lightweight and dependency-free — designed for performance and simplicity
+
 - Fetch and cache multiple requests concurrently
 
 - Reuse cached data anywhere without redundant requests
@@ -23,8 +25,6 @@ A simple and lightweight React package for fetching and caching data with Server
 - Mutate and update the cache to reflect changes instantly across components
 
 - Automatically invalidate stale cache in the background without manual intervention
-
-- Lightweight and dependency-free — designed for performance and simplicity
 
 - Ideal for creating seamless hybrid data-fetching experiences
 
@@ -40,7 +40,7 @@ npm i react-quick-query
 
 - Any HTTP client or data requester can be used -- such as `fetch` or `axios`.
 - There's no need to manage loading or error states—unless you’re using React Suspense—only the data itself.
-- By the package comes with three hooks to use `useQuery`, `mutateQuery`, and `invalidateQueries`.
+- The package comes with these hooks to use `useQuery`, `mutateQuery`, `invalidateQueries`, and `extendCache`.
 
 ## Properties Available with `useQuery<T>()`
 
