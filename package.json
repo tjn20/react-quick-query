@@ -1,0 +1,48 @@
+{
+  "name": "react-quick-query",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Lightweight fetching and caching layer that brings React Server Component–style data handling to the client.",
+  "keywords": [
+    "react",
+    "cache"
+  ],
+  "author": {
+    "name": "TJN",
+    "url": "https://github.com/tjn20"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjn20/react-quick-query/issues"
+  },
+  "homepage": "https://github.com/tjn20/react-quick-query#readme",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "bundle": "tsup src/index.ts"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/node": "^24.6.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "tsup": "^8.5.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.45.0",
+    "vite": "^7.1.7"
+  }
+}
