@@ -1,7 +1,7 @@
 {
   "name": "react-quick-query",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight fetching and caching layer that brings React Server Component–style data handling to the client.",
   "keywords": [
     "react",
